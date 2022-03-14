@@ -1,0 +1,29 @@
+<div class="inicio cargando-pm">
+  <div class="div-uno">
+    <div class="columna div-nom" style="text-align: left">
+      <p class="pp">
+        <span class="c-n c-azu">{{ is }}</span
+        ><span class="nombre p-nom">{{ nombre }}</span
+        ><span class="c-n c-azu">{{ de }}</span>
+      </p>
+
+      <span class="dev-web c-azu" (click)="dev()">{{ desarrollador }}</span>
+    </div>
+    <br />
+
+    <div class="columna div-btn" style="text-align: center">
+      <button (click)="whatsapp()" class="btn contactame">
+        <span>Contactame </span><fa-icon [icon]="wsp" class="wsp"></fa-icon>
+      </button>
+
+      <button (click)="github()" class="btn portafolio">
+        <span>Portafolio </span
+        ><fa-icon [icon]="ptfolio" class="port"></fa-icon>
+      </button>
+    </div>
+  </div>
+
+  <div class="div-dos">
+    <img class="img-inicio" src="../../../assets/dev.png" alt="" />
+  </div>
+</div>

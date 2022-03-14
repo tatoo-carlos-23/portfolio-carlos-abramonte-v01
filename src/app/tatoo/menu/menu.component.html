@@ -1,0 +1,9 @@
+<!-- <div class="menu">
+    <button *ngFor="let x of menus" (click)="funcion(x)" class="btn estbtn"><i [class]="x.clases"></i></button>
+</div> -->
+
+<div class="menu">
+  <button *ngFor="let x of menus" (click)="funcion(x)" class="btn estbtn">
+    <fa-icon [icon]="x.icon" class="icc bg-azu"></fa-icon>
+  </button>
+</div>

@@ -1,0 +1,50 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(9, 10, 19);
+  color: white;
+  font-family: "Ubuntu", sans-serif;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu&display=swap");
+
+.fila {
+  display: flex;
+  flex-direction: row;
+}
+
+.columna {
+  display: flex;
+  flex-direction: column;
+}
+
+.c-azu {
+  color: #2264c7;
+}
+
+.c-ama {
+  color: #b7950b;
+}
+
+.bg-azu {
+  background-color: #2264c7;
+}
+
+.bg-ama {
+  background-color: #b7950b;
+}
+/*cargando-pm*/
+.cargando-pm {
+  animation: cargando 2.5s;
+}
+
+@keyframes cargandooo {
+  0% {
+    opacity: 0%;
+    border-radius: 50%;
+  }
+  100% {
+    opacity: 100%;
+    border-radius: 0%;
+  }
+}

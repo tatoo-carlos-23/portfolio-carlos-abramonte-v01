@@ -1,0 +1,16 @@
+<div class="contactame-c cargando-pm">
+  <div *ngFor="let x of contactos" class="div-contac fila" (click)="funcion(x)">
+    <section class="columna sec-uno">
+      <label class="titulo"
+        ><strong>{{ x.titulo }}</strong></label
+      >
+      <label class="subtitulo"
+        ><strong>{{ x.subtitulo }}</strong></label
+      >
+    </section>
+
+    <section class="sec-dos">
+      <fa-icon [icon]="x.icon" class="icono"></fa-icon>
+    </section>
+  </div>
+</div>

@@ -1,0 +1,145 @@
+div {
+  margin: 6px;
+  padding: 10px;
+}
+
+.div-pri {
+  border-radius: 3px;
+  background-color: rgb(9, 10, 19);
+  border: 1.5px solid #2264c7;
+}
+
+.div-x {
+  width: 100%;
+  padding-right: 20px;
+  padding-left: 20px;
+  box-sizing: border-box;
+}
+
+/* QUIEN SOY YO */
+.div-pri > div:nth-child(1) p {
+  text-align: center;
+  font-size: 32px;
+  padding-bottom: 10px;
+  border-bottom: 2px solid white;
+}
+/* IMAGEN*/
+.div-pri > div:nth-child(2) img {
+  width: 90px;
+  height: 70px;
+  margin-right: 10px;
+}
+/*NOMBRE, CORREO Y TELEFONO*/
+.div-pri > div:nth-child(2) p {
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-right: auto;
+  padding: 2px;
+  font-size: 18px;
+  box-sizing: border-box;
+}
+/* DESCRIPCION */
+.div-pri > div:nth-child(3) p {
+  text-align: justify;
+  padding-bottom: 20px;
+  border-bottom: 2px solid white;
+  font-size: 20px;
+}
+/* ULTIMO DIV*/
+.div-pri > div:nth-child(4) {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+/*BOTON DESCARGAR CV */
+.div-pri > div:nth-child(4) button {
+  width: 100%;
+  padding: 8px;
+  font-size: 24px;
+  border: 1.2px solid #2264c7;
+  border-radius: 10px;
+  color: white;
+  font-weight: bold;
+  background-color: rgb(9, 10, 19);
+  cursor: pointer;
+  box-sizing: border-box;
+}
+
+@media (max-width: 390px) {
+  .div-x {
+    width: 100%;
+    padding-right: 5px;
+    padding-left: 5px;
+    box-sizing: border-box;
+  }
+  /* QUIEN SOY YO */
+  .div-pri > div:nth-child(1) p {
+    text-align: center;
+    font-size: 28px;
+    padding-bottom: 8px;
+    border-bottom: 2px solid white;
+  }
+  /* IMAGEN*/
+  .div-pri > div:nth-child(2) img {
+    width: 80px;
+    height: 60px;
+    margin-right: 6px;
+  }
+  /*NOMBRE, CORREO Y TELEFONO*/
+  .div-pri > div:nth-child(2) p {
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: auto;
+    padding: 2px;
+    font-size: 14px;
+    box-sizing: border-box;
+  }
+  /* DESCRIPCION */
+  .div-pri > div:nth-child(3) p {
+    text-align: justify;
+    padding-bottom: 20px;
+    border-bottom: 2px solid white;
+    font-size: 20px;
+    box-sizing: border-box;
+  }
+}
+
+@media (min-width: 800px) {
+  .div-pri {
+    margin-top: 5%;
+    margin-left: 12%;
+    margin-right: 12%;
+  }
+
+  /* QUIEN SOY YO */
+  .div-pri > div:nth-child(1) p {
+    font-size: 42px;
+  }
+  /* DESCRIPCION */
+  .div-pri > div:nth-child(3) p {
+    font-size: 28px;
+  }
+  /*BOTON DESCARGAR CV */
+  .div-pri > div:nth-child(4) button {
+    padding: 10px;
+    font-size: 30px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .div-pri {
+    margin-left: 20%;
+    margin-right: 20%;
+  }
+  .div-pri > div:nth-child(1) p {
+    font-size: 44px;
+  }
+  /* DESCRIPCION */
+  .div-pri > div:nth-child(3) p {
+    font-size: 30px;
+  }
+  /*BOTON DESCARGAR CV */
+  .div-pri > div:nth-child(4) button {
+    padding: 12px;
+    font-size: 35px;
+  }
+}

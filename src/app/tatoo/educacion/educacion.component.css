@@ -1,0 +1,90 @@
+.educacion {
+  padding: 20px;
+  margin: 6px;
+  padding: 10px;
+  display: grid;
+  grid-template-columns: auto; /* auto auto auto;*/
+  grid-gap: 15px;
+}
+
+.educacion > div {
+  justify-content: center;
+}
+
+.img-edu {
+  width: 100%;
+}
+
+.uni {
+  font-size: 25px;
+  color: #2264c7;
+  font-weight: bold;
+  border-bottom: 5px solid #2264c7;
+}
+
+.items-xd {
+  padding: 10px 0;
+}
+
+.item {
+  border-radius: 100%;
+  padding: 5px;
+  background-color: #2264c7;
+  font-size: 20px;
+}
+
+.ora {
+  font-size: 20px;
+}
+
+div > div > p {
+  border-right: 5px solid #2264c7;
+}
+
+@media (min-width: 550px) {
+  .educacion {
+    padding: 10px;
+    margin: 10%;
+    margin-top: 0% !important;
+    display: grid;
+    grid-template-columns: auto; /* auto auto auto;*/
+    grid-gap: 15px;
+    box-sizing: border-box;
+  }
+
+  .uni {
+    font-size: 30px;
+    color: #2264c7;
+    font-weight: bold;
+  }
+
+  .item {
+    border-radius: 100%;
+    padding: 5px;
+    background-color: #2264c7;
+    font-size: 25px;
+  }
+
+  .ora {
+    font-size: 25px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .uni {
+    font-size: 35px;
+    color: #2264c7;
+    font-weight: bold;
+  }
+
+  .item {
+    border-radius: 100%;
+    padding: 8px;
+    background-color: #2264c7;
+    font-size: 30px;
+  }
+
+  .ora {
+    font-size: 30px;
+  }
+}

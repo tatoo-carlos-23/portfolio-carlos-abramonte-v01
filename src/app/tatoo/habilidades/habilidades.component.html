@@ -1,0 +1,6 @@
+<div class="habilidades cargando-pm">
+  <div *ngFor="let x of habilidades_de" class="div-img">
+    <img class="img-habil" [src]="x.imagen" [alt]="x.descripcion" />
+    <p class="nombre-x">{{ x.nombre }}</p>
+  </div>
+</div>

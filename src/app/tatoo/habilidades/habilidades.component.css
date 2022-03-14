@@ -1,0 +1,132 @@
+.habilidades {
+  margin: 6px;
+  padding: 10px;
+  display: grid;
+  grid-template-columns: auto; /* auto auto auto;*/
+  grid-gap: 15px;
+}
+
+.habilidades > div {
+  justify-content: center;
+}
+
+.div-img {
+  text-align: center;
+  padding: 20px;
+  box-sizing: border-box; /*NO AUMNETA CON EL PADDING*/
+  border-radius: 3px;
+  background-color: rgb(9, 10, 19);
+  border: 1.5px solid #2264c7;
+  cursor: pointer;
+}
+
+/* .div-img:hover{
+    border: 1.5px solid white;
+    background-color: rgb(57, 59, 73);
+    margin: 1px;
+    padding: 10px;
+} */
+
+.img-habil {
+  width: 30%;
+  height: 100px;
+}
+
+.img-habil:hover {
+  width: 40%;
+  height: 150px;
+}
+
+.nombre-x {
+  font-size: 35px;
+  padding: 0;
+  margin: 0;
+}
+
+@media (min-width: 500px) {
+  .habilidades {
+    margin: 6px;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 47% 47%; /* auto auto;*/
+    grid-gap: 15px;
+    justify-content: center;
+  }
+}
+
+@media (min-width: 750px) {
+  .habilidades {
+    margin: 5%;
+    margin-top: 0% !important;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 47% 47%; /* auto auto;*/
+    grid-gap: 15px;
+    justify-content: center;
+  }
+}
+
+@media (min-width: 880px) {
+  .habilidades {
+    margin: 8%;
+    margin-top: 0% !important;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 47% 47%; /* auto auto;*/
+    grid-gap: 15px;
+    justify-content: center;
+  }
+
+  .div-img {
+    margin: 10px;
+    padding: 25px;
+    box-sizing: border-box; /*NO AUMNETA CON EL PADDING*/
+  }
+}
+
+@media (min-width: 1024px) {
+  .habilidades {
+    margin: 3%;
+    margin-top: 0% !important;
+    padding: 15px;
+    display: grid;
+    grid-template-columns: 32% 32% 32%; /* auto auto;*/
+    grid-gap: 15px;
+    justify-content: center;
+  }
+
+  .div-img {
+    margin: 15px;
+    padding: 30px;
+    box-sizing: border-box; /*NO AUMNETA CON EL PADDING*/
+  }
+}
+
+@media (min-width: 1520px) {
+  .habilidades {
+    margin: 3%;
+    margin-top: 0% !important;
+    padding: 15px;
+    display: grid;
+    grid-template-columns: 35% 35% 35%; /* auto auto;*/
+    grid-gap: 15px;
+    justify-content: center;
+  }
+  .div-img {
+    margin: 15px;
+    padding: 40px;
+    box-sizing: border-box; /*NO AUMNETA CON EL PADDING*/
+  }
+}
+
+@media (min-width: 1700px) {
+  .habilidades {
+    margin: 3%;
+    margin-top: 0% !important;
+    padding: 15px;
+    display: grid;
+    grid-template-columns: 23% 23% 23% 23%; /* auto auto;*/
+    grid-gap: 15px;
+    justify-content: center;
+  }
+}

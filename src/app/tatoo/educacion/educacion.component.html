@@ -1,0 +1,13 @@
+<div class="educacion cargando-pm">
+  <div *ngFor="let x of educacion">
+    <p class="uni">{{ x.univ }}</p>
+
+    <!-- <p *ngFor="let d of x.items"><span class="fas fa-arrow-right item"></span><span class="ora"> {{d.nombre}}</span> -->
+    <p *ngFor="let d of x.items" class="items-xd">
+      <fa-icon [icon]="flecha" class="item"></fa-icon>
+      <span class="ora"> {{ d.nombre }}</span>
+    </p>
+
+    <!-- <img [class]="x.clases" [src]="x.img" alt=""> -->
+  </div>
+</div>

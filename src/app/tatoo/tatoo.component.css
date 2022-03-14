@@ -1,0 +1,106 @@
+.pag-principal {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.menu-arriba {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.hola {
+  font-weight: bold;
+  font-size: 23px;
+  animation: hola 1.3s;
+  padding: 0;
+  margin: 0;
+}
+
+@keyframes hola {
+  0% {
+    margin-top: 100vh;
+    opacity: 0%;
+    color: #2264c7;
+  }
+
+  20% {
+    opacity: 20%;
+    color: #306bc5;
+  }
+
+  40% {
+    opacity: 40%;
+    color: #4277c7;
+  }
+
+  60% {
+    opacity: 60%;
+    color: rgb(136, 158, 190);
+  }
+
+  80% {
+    opacity: 80%;
+    color: #a4abb6;
+  }
+
+  100% {
+    margin-top: 20px;
+    opacity: 100%;
+    color: rgb(255, 255, 255);
+  }
+}
+
+.sms-recibido {
+  animation: recibido 1s infinite;
+  color: rgb(255, 255, 255);
+}
+
+@keyframes recibido {
+  33% {
+    color: #2264c7;
+  }
+  63% {
+    color: rgb(9, 10, 19);
+  }
+
+  100% {
+    color: rgb(255, 255, 255);
+  }
+}
+
+.parte-media {
+  width: 100%;
+  padding-top: 50px;
+  /* overflow-y: scroll; */
+  padding-bottom: 50px;
+}
+
+.menu-abajo {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  /*   text-align: center;
+    align-items: center; */
+}
+
+/* 
+  @media (min-width: 800px){
+  
+  
+  .menu-abajo{
+    position: fixed;
+    bottom: 0;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    box-sizing: border-box;
+  
+  }
+  
+  
+  } */

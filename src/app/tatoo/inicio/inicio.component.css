@@ -1,0 +1,299 @@
+.inicio {
+  padding: 20px;
+}
+
+.c-n {
+  font-size: 25px;
+}
+
+.nombre {
+  color: #ffffff;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.p-nom {
+  margin-left: 6px;
+  margin-right: 6px;
+  text-decoration: underline #2264c7;
+  animation: nomb 1s infinite;
+}
+
+.pp {
+  border-right: 5px solid #2264c7;
+  margin: 6px;
+}
+
+@keyframes nomb {
+  0% {
+    text-decoration: underline rgb(9, 10, 19);
+  }
+  50% {
+    text-decoration: underline rgb(56, 57, 66);
+  }
+  100% {
+    text-decoration: underline #ffffff;
+  }
+}
+
+.dev-web {
+  font-size: 35px;
+  margin: 6px;
+  border-right: 5px solid #2264c7;
+  cursor: pointer;
+}
+
+.btn {
+  background: none;
+  color: inherit;
+  border: none;
+  padding: 0;
+  font: inherit;
+  cursor: pointer;
+  outline: inherit;
+}
+
+.contactame {
+  border: 1px solid #2264c7;
+  margin: 6px;
+  padding: 10px;
+  font-size: 25px;
+  border-bottom-left-radius: 10px;
+  border-top-left-radius: 10px;
+  border-right: 5px solid #2264c7;
+}
+
+.wsp {
+  color: #01e675;
+  animation: whastapp 0.5s infinite;
+}
+
+@keyframes whastapp {
+  0% {
+    color: rgb(9, 10, 19);
+  }
+  50% {
+    color: #2c3832;
+  }
+  100% {
+    color: #01e675;
+  }
+}
+
+.portafolio {
+  border: 1px solid #2264c7;
+  margin: 6px;
+  padding: 10px;
+  font-size: 25px;
+  border-bottom-left-radius: 10px;
+  border-top-left-radius: 10px;
+  border-right: 5px solid #2264c7;
+}
+
+.port {
+  color: #3397a1;
+  animation: github 0.5s infinite;
+}
+
+@keyframes github {
+  0% {
+    color: rgb(9, 10, 19);
+  }
+  50% {
+    color: #1c3a3d;
+  }
+  100% {
+    color: #3397a1;
+  }
+}
+
+.div-dos {
+  margin: 6px;
+}
+
+.img-inicio {
+  margin: auto;
+  width: 100%;
+  box-sizing: border-box;
+  border-right: 5px solid #2264c7;
+}
+
+@media (min-width: 1930px) {
+  .inicio {
+    padding: 50px;
+    display: flex;
+    flex-direction: row;
+    padding-top: 120px;
+  }
+
+  .c-n {
+    font-size: 45px;
+  }
+
+  .nombre {
+    color: #ffffff;
+    font-size: 65px;
+    font-weight: bold;
+  }
+
+  .dev-web {
+    font-size: 50px;
+    margin: 6px;
+  }
+
+  .div-uno {
+    width: 45%;
+  }
+
+  .div-dos {
+    width: 55%;
+  }
+
+  .div-nom {
+    text-align: center;
+    margin: auto;
+    display: block;
+  }
+
+  .div-btn {
+    width: 60%;
+    margin: auto;
+    box-sizing: border-box;
+  }
+
+  .contactame {
+    margin: 6px;
+    padding: 10px;
+    font-size: 40px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+  }
+
+  .portafolio {
+    margin: 6px;
+    padding: 10px;
+    font-size: 40px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+  }
+}
+
+@media (min-width: 1400px) {
+  .inicio {
+    padding: 50px;
+    display: flex;
+    flex-direction: row;
+    padding-top: 120px;
+  }
+
+  .c-n {
+    font-size: 45px;
+  }
+
+  .nombre {
+    color: #ffffff;
+    font-size: 65px;
+    font-weight: bold;
+  }
+
+  .dev-web {
+    font-size: 50px;
+    margin: 6px;
+  }
+
+  .div-uno {
+    width: 45%;
+  }
+
+  .div-dos {
+    width: 55%;
+  }
+
+  .div-nom {
+    text-align: center;
+    margin: auto;
+    display: block;
+  }
+
+  .div-btn {
+    width: 60%;
+    margin: auto;
+    box-sizing: border-box;
+  }
+
+  .contactame {
+    margin: 6px;
+    padding: 10px;
+    font-size: 40px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+  }
+
+  .portafolio {
+    margin: 6px;
+    padding: 10px;
+    font-size: 40px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+  }
+}
+
+@media (min-width: 1280px) {
+  .inicio {
+    padding: 50px;
+    display: flex;
+    flex-direction: row;
+    padding-top: 120px;
+  }
+
+  .c-n {
+    font-size: 45px;
+  }
+
+  .nombre {
+    color: #ffffff;
+    font-size: 65px;
+    font-weight: bold;
+  }
+
+  .dev-web {
+    font-size: 50px;
+    margin: 6px;
+  }
+
+  .div-uno {
+    width: 45%;
+  }
+
+  .div-dos {
+    width: 55%;
+  }
+
+  .div-nom {
+    text-align: center;
+    margin: auto;
+    display: block;
+  }
+
+  .div-btn {
+    width: 60%;
+    margin: auto;
+    box-sizing: border-box;
+  }
+
+  .contactame {
+    margin: 6px;
+    padding: 10px;
+    font-size: 40px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+  }
+
+  .portafolio {
+    margin: 6px;
+    padding: 10px;
+    font-size: 40px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+  }
+}
