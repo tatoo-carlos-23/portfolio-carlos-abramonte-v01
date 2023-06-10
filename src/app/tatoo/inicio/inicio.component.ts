@@ -32,11 +32,11 @@ export class InicioComponent implements OnInit {
   }
 
   dev() {
-    if (this.desarrollador == 'WEB DEVELOPER 💻') {
-      this.desarrollador = 'DESARROLLADOR WEB 💻';
-    } else if (this.desarrollador == 'DESARROLLADOR WEB 💻') {
-      this.desarrollador = 'WEB DEVELOPER 💻';
-    }
+    // if (this.desarrollador == 'SOFTWARE DEVELOPER 💻') {
+    //   this.desarrollador = 'DESARROLLADOR de  💻';
+    // } else if (this.desarrollador == 'DESARROLLADOR WEB 💻') {
+    //   this.desarrollador = 'SOFTWARE DEVELOPER 💻';
+    // }
   }
 
   whatsapp() {
