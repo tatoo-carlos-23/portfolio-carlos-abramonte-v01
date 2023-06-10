@@ -22,7 +22,7 @@ export class InicioComponent implements OnInit {
   ) { }
 
   ngOnInit(): void {
-    this.desarrollador = 'WEB DEVELOPER 💻';
+    this.desarrollador = 'SOFTWARE DEVELOPER 💻';
   }
 
   ngAfterViewInit() {
